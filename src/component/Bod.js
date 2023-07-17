@@ -8,10 +8,10 @@ const Bod = (props) => {
           alt="Mountain"
         />
       </div>
-      <div className="relative w-32 h-32 mx-auto -mt-16 overflow-hidden border-4 border-white rounded-full ">
+      <div className="relative w-32 h-32 mx-auto -mt-16 overflow-hidden bg-white border-4 border-white rounded-full ">
         <img
           className="object-cover object-center h-36"
-          src={`https://drive.google.com/thumbnail?id=${props.image_id}`}
+          src={props.image_url}
           alt={props.name}
         />
       </div>
