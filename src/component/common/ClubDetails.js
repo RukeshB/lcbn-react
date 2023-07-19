@@ -1,7 +1,7 @@
-import Lions_International_logo from "../assets/image/logos/Lions_Clubs_International_logo.png";
-import Leo_International_logo from "../assets/image/logos/internaltional_leo_logo.png";
-import BN_Lions_logo from "../assets/image/logos/lions_club_of_bhaktapur_namaste.png";
-import BN_Leo_logo from "../assets/image/logos/namaste leo club copy.png";
+import Lions_International_logo from "../../assets/image/logos/Lions_Clubs_International_logo.png";
+import Leo_International_logo from "../../assets/image/logos/internaltional_leo_logo.png";
+import BN_Lions_logo from "../../assets/image/logos/lions_club_of_bhaktapur_namaste.png";
+import BN_Leo_logo from "../../assets/image/logos/namaste leo club copy.png";
 
 const ClubDetails = () => {
   return (
