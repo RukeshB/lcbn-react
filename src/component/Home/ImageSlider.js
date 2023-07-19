@@ -1,6 +1,6 @@
 import { Carousel } from "@material-tailwind/react";
-import image_1 from "../../assets/image/AMN04602.jpg"
-import image_2 from "../../assets/image/1658750357963.jpg"
+import image_1 from "../../assets/image/AMN04602.jpg";
+import image_2 from "../../assets/image/1658750357963.jpg";
 
 const ImageSlider = () => {
   return (
@@ -20,16 +20,18 @@ const ImageSlider = () => {
         </div>
       )}
     >
-      <img
-        src={image_1}
-        alt="image_1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src={image_2}
-        alt="image_2"
-        className="h-full w-full object-cover"
-      />
+      <div className="h-full w-full overflow-hidden relative">
+      <div className="h-full w-full opacity-40 bg-black absolute"></div>
+        <img
+          src={image_1}
+          alt="image_1"
+          className="h-full w-full object-center object-cover"
+        />
+      </div>
+      <div className="h-full w-full overflow-hidden relative">
+      <div className="h-full w-full opacity-40 bg-black absolute"></div>
+      <img src={image_2} alt="image_2" className="h-full w-full object-center object-cover" />
+      </div>
     </Carousel>
   );
 };
