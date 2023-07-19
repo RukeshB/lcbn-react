@@ -75,7 +75,7 @@ export default function Nav() {
   return (
     <Navbar className="max-w-screen-xl absolute z-50 left-1/2 transform -translate-x-1/2 fixed">
       <div className="relative flex items-center mx-auto text-blue-gray-900">
-        <Link className="cursor-pointer font-medium" to={"/"}>
+        <Link className="cursor-pointer -my-2" to={"/"}>
           
         <Avatar
             variant="circular"
