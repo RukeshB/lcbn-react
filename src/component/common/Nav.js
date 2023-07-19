@@ -5,29 +5,37 @@ import {
   Typography,
   MenuItem,
   IconButton,
+  Avatar,
 } from "@material-tailwind/react";
 import {
   UserCircleIcon,
+  UserPlusIcon,
+  UserGroupIcon,
   PhoneIcon,
   Bars2Icon,
-  DocumentIcon,
 } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
+import BN_Leo_logo from "../../assets/image/logos/namaste leo club copy.png";
 
 // nav list component
 const navListItems = [
   {
     label: "BOD",
-    icon: DocumentIcon,
+    icon: UserGroupIcon,
     path: "/bod",
   },
   {
     label: "About",
     icon: UserCircleIcon,
-    path: "/",
+    path: "/about",
   },
   {
     label: "Join Us",
+    icon: UserPlusIcon,
+    path: "/",
+  },
+  {
+    label: "Contact",
     icon: PhoneIcon,
     path: "/",
   },
@@ -67,11 +75,14 @@ export default function Nav() {
   return (
     <Navbar className="max-w-screen-xl absolute z-50 left-1/2 transform -translate-x-1/2 fixed">
       <div className="relative flex items-center mx-auto text-blue-gray-900">
-        <Link className="mr-4 ml-2 cursor-pointer py-1.5 font-medium" to={"/"}>
+        <Link className="cursor-pointer font-medium" to={"/"}>
           
-          <Typography>
-            BNLC
-          </Typography>
+        <Avatar
+            variant="circular"
+            size="md"
+            alt="BNLC"
+            src={BN_Leo_logo}
+          />
         </Link>
         <div className="absolute hidden top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 lg:block">
           <NavList />
