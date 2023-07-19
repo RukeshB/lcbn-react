@@ -8,7 +8,7 @@ const Bod = (props) => {
           alt="Mountain"
         />
       </div>
-      <div className="relative w-32 h-32 mx-auto -mt-16 overflow-hidden bg-white border-4 border-white rounded-full ">
+      <div className="relative w-32 h-32 mx-auto -mt-16 overflow-hidden bg-[#263A5F] border-4 border-white rounded-full ">
         <img
           className="object-cover object-center h-36"
           src={props.image_url}
@@ -18,7 +18,6 @@ const Bod = (props) => {
       <div className="mt-6 text-center">
         <h2 className="text-xl font-semibold">Leo {props.name}</h2>
         <p className="text-xl">{props.position}</p>
-        <p className="text-gray-500">for LY {props.ly}</p>
       </div>
       <ul className="flex flex-col items-center justify-around py-4 mt-6 text-gray-700">
         <li className="flex items-center justify-around gap-2">
