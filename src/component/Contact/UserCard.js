@@ -14,11 +14,11 @@ const UserCard = (props) => {
         <ul className="flex flex-col items-start  justify-around py-2 text-gray-700">
           <li className="flex items-center justify-around gap-2">
             <EnvelopeIcon className="w-4 text-blue-900" />
-            <a href={`mailto: ${props.email}`}>{props.email}</a>
+            <a href={`mailto: ${props.email}`} className="hover:text-[#263A5F]">{props.email}</a>
           </li>
           <li className="flex items-center justify-around gap-2">
             <DevicePhoneMobileIcon className="w-4 text-blue-900" />
-            <div>{props.phone}</div>
+            <a href={`tel: +977${props.phone}`} className="hover:text-[#263A5F]">{props.phone}</a>
           </li>
         </ul>
       </div>
