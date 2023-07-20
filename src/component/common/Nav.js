@@ -32,7 +32,7 @@ const navListItems = [
   {
     label: "Join Us",
     icon: UserPlusIcon,
-    path: "/",
+    path: "/join",
   },
   {
     label: "Contact",
