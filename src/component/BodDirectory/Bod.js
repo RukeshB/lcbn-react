@@ -23,7 +23,7 @@ const Bod = (props) => {
       <ul className="flex flex-col items-center justify-around py-4 mt-6 text-gray-700">
         <li className="flex items-center justify-around gap-2">
           <EnvelopeIcon className="w-4 text-blue-900"/>
-          <div>{props.email}</div>
+          <a href={`mailto: ${props.email}`}>{props.email}</a>
         </li>
       </ul>
     </div>
