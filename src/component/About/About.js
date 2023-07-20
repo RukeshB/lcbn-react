@@ -5,13 +5,13 @@ import TimelineItemDetails from "./TimelineItemDetails";
 
 const About = () => {
   return (
-    <div className="w-full md:pt-28 pt-20 md:px-28 px-20 text-left">
+    <div className="w-full md:pt-28 pt-20 md:px-28 px-2 text-left">
       <Timeline>
         <TimelineItemDetails
           image={Leo_International_logo}
           title="Leo Clubs International"
           description={
-            <div>
+            <div className="text-xs md:text-base">
               Leo clubs are a youth organization of Lions Clubs International
               <br />
               Leo clubs encourage youths to develop leadership qualities by
@@ -32,7 +32,7 @@ const About = () => {
           image={BN_Leo_logo}
           title="Bhaktapur Namaste Leo Club"
           description={
-            <div>
+            <div className="text-xs md:text-base">
               Leo clubs are a youth organization of Lions Clubs International
               <br />
               Leo clubs encourage youths to develop leadership qualities by
