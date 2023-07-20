@@ -25,7 +25,7 @@ const TimelineItemDetails = (props) => {
         </Typography>
       </TimelineHeader>
       <TimelineBody className="pb-8">
-        <Typography color="gary" className="font-normal text-gray-600">
+        <Typography className="font-normal text-gray-600">
           {props.description}
         </Typography>
       </TimelineBody>
