@@ -37,7 +37,7 @@ const navListItems = [
   {
     label: "Contact",
     icon: PhoneIcon,
-    path: "/",
+    path: "/contact",
   },
 ];
 
