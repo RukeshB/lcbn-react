@@ -10,6 +10,7 @@ import {
 import {
   UserCircleIcon,
   UserPlusIcon,
+  HomeIcon,
   UserGroupIcon,
   PhoneIcon,
   Bars2Icon,
@@ -19,6 +20,11 @@ import BN_Leo_logo from "../../assets/image/logos/namaste leo club copy.png";
 
 // nav list component
 const navListItems = [
+  {
+    label: "Home",
+    icon: HomeIcon,
+    path: "/",
+  },
   {
     label: "BOD",
     icon: UserGroupIcon,
