@@ -24,34 +24,39 @@ const navListItems = [
     label: "Home",
     icon: HomeIcon,
     path: "/",
+    target: "",
   },
   {
     label: "BOD",
     icon: UserGroupIcon,
     path: "/bod",
+    target: "",
   },
   {
     label: "About",
     icon: UserCircleIcon,
     path: "/about",
+    target: "",
   },
   {
     label: "Join Us",
     icon: UserPlusIcon,
-    path: "/join",
+    path: "https://docs.google.com/forms/d/e/1FAIpQLSdSx4ENLFL9Ddfao6QnVohDxVGQ95c8oFnv72gYI8KZ-meb6g/viewform",
+    target: "_blank",
   },
   {
     label: "Contact",
     icon: PhoneIcon,
     path: "/contact",
+    target: "",
   },
 ];
 
 function NavList() {
   return (
     <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
-      {navListItems.map(({ label, icon, path }, key) => (
-        <Link to={path} className="font-normal" key={key}>
+      {navListItems.map(({ label, icon, path, target }, key) => (
+        <Link to={path} className="font-normal" key={key} target={target}>
           <Typography
           key={label}
           variant="small"
