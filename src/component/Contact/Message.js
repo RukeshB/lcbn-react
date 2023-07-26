@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 const Message = () => {
   return (
-    <Card className="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto">
+    <Card className="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-4 md:mx-auto">
       <div class="flex flex-col justify-between">
         <div>
           <h2 class="text-4xl lg:text-5xl font-bold leading-tight">

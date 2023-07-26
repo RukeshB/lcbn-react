@@ -3,7 +3,7 @@ import {EnvelopeIcon, DevicePhoneMobileIcon} from "@heroicons/react/24/outline";
 const UserCard = (props) => {
   return (
     <div className="flex gap-6 w-96 items-center shadow-md p-3">
-      <div className="w-28 h-28 bg-[#263A5F] rounded-full ">
+      <div className="w-24 h-24 md:w-28 md:h-28 bg-[#263A5F] rounded-full ">
         <img src={props.image_url} alt={props.name} />
       </div>
       <div>
