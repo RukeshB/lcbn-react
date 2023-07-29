@@ -33,7 +33,7 @@ const About = () => {
           title="Bhaktapur Namaste Leo Club"
           description={
             <span className="text-xs md:text-base">
-             Leo Club of Bhaktapur Namaste was chartered in 25th November, 2021 with Leo Babin Lama as a character president under guidance of Lions Club of Bhaktapur Namaste. Our primary objective is to foster personal development, motivate each other towards social services, and cultivate essential leadership skills and teamwork. Together, we aim to make a positive impact on our community and beyond, leaving a lasting legacy of service, compassion, and leadership. 
+             Leo Club of Bhaktapur Namaste was chartered in 25th November, 2021 with Leo Babin Lama as a chartered president under guidance of Lions Club of Bhaktapur Namaste. Our primary objective is to foster personal development, motivate each other towards social services, and cultivate essential leadership skills and teamwork. Together, we aim to make a positive impact on our community and beyond, leaving a lasting legacy of service, compassion, and leadership. 
             </span>
           }
         />
